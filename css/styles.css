@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: /* #e0ebe9 */ #fff;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-weight: 100;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+.top-container {
+    padding-bottom: 3em;
+    position: relative;
+    background-color: #e0ebe9;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 360px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 350px;
+    left: 350px;
+}
+
+header {
+    padding-top: 50px;
+    
+}
+
+h1 {
+    padding-top: 15px;
+    margin: 50px auto 0px;
+    line-height: 2;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 30px;
+   /* font-size: 2.5rem; */
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-width: 4.5px;
+    width: 50px;
+    margin: 0 auto;
+    color: #DDDDDD;
+    margin: 70px auto;
+}
+
+.middle-container {
+    background-color: #fff;
+    padding: 60px 0;
+   /* width: 60%;
+    margin: 0 auto; */
+}
+
+.middle-container .profile img {
+    width: 160px;
+    height: 160px; 
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+
+.middle-container .skill-row {
+   /* margin-bottom: 15px; */
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container .skill-row img {
+    width: 165px;
+    height: 165px; 
+    margin-bottom: 40px;
+}
+
+.web-design {
+    float: left;
+    margin-right: 30px;
+}
+
+.python {
+    float: right;
+    margin-left: 30px;
+}
+
+.middle-container .skills h2 {
+    padding-bottom: 0;
+}
+
+.middle-container .contact-me h2 {
+    /* padding: 10px 0; */
+    margin-bottom: 20px;
+}
+
+.middle-container .contact-me h3 {
+    margin-bottom: 30px;
+}
+
+.middle-container .contact-me p {
+    margin-bottom: 30px;
+    line-height: 2;
+}
+
+.btn {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background-color: #66BFBF;
+    color: white;
+    padding: 5px 0 5px;
+    margin: 0 auto 20px; 
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-container {
+    background-color: #66BFBF
+}
+.bottom-container footer {
+    padding: 50px 0;
+}
+
+.bottom-container footer p {
+    padding-top: 40px;
+    color: #EAF6F6;
+}
+.bottom-container a {
+    color: #11999E;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 660px;
+        margin: 0 auto;
+    }
+    
+}
